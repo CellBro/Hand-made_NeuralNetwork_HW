@@ -8,7 +8,7 @@ from matplotlib import pyplot as plt
 
 ################################
 N = 5
-epochs = 100
+epochs = 10000
 
 acc_bst = 0.0
 loss = []

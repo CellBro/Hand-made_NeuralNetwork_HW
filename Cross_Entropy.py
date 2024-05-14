@@ -18,8 +18,6 @@ def calculate_cross_entropy(W1, W2, W3, X, D, N):
         y3 = softmax(v3)
 
         e = -1*np.log(y3[np.argmax(d)])
-        if e > 1:
-            print(e)
         # 计算交叉熵
         cross_entropy.append(e)
 

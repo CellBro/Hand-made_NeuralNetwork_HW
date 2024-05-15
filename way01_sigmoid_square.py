@@ -8,11 +8,10 @@ from Softmax import softmax
 from matplotlib import pyplot as plt
 
 ################################
-N = 10
+OUT = N = 10
 epochs = 10000
 N1 = 60
 N2 = 120
-OUT =10
 acc_bst = 0.0
 loss = []
 accuracy = []

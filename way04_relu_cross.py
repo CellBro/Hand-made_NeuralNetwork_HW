@@ -8,8 +8,7 @@ from Softmax import softmax
 from matplotlib import pyplot as plt
 
 ################################
-N = 5
-OUT=10
+OUT = N = 10
 epochs = 10000
 N1=60
 N2=120

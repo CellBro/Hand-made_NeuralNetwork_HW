@@ -11,7 +11,8 @@ from matplotlib import pyplot as plt
 ################################
 N = 5
 epochs = 10000
-
+N1=60
+N2=120
 acc_bst = 0.0
 loss = []
 accuracy = []
@@ -156,9 +157,9 @@ W1 = 2 * np.random.rand(30, 25) - 1
 W2 = 2 * np.random.rand(50, 30) - 1
 W3 = 2 * np.random.rand(5, 50) - 1
 
-W1_bst = np.zeros([30, 25], dtype=np.float32)
-W2_bst = np.zeros([50, 30], dtype=np.float32)
-W3_bst = np.zeros([5, 50], dtype=np.float32)
+W1_bst = np.zeros([N1, 25], dtype=np.float32)
+W2_bst = np.zeros([N2, N1], dtype=np.float32)
+W3_bst = np.zeros([5, N2], dtype=np.float32)
 
 ######################################################
 # Train
